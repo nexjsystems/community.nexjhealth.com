@@ -1,0 +1,248 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.25;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 25px;
+	line-height: 1.25;
+}
+
+.site-main {
+    position: relative;
+    overflow: auto;
+}
+
+.hero-stripes {
+	background: #126457;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	overflow: hidden;
+	height: 834px;
+	position: absolute;
+	top: 0; left: 0; z-index: -1;
+}
+
+.hero-stripe-top {
+	position: absolute;
+	width: 110vw;
+	height: 1000%;
+	left: -5vw;
+	top: -1010%;
+
+	background: #23B9A1;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+    -webkit-transform: skewY(12deg);
+    transform: skewY(12deg);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;;
+
+}
+
+.hero-stripe-bottom {
+	position: absolute;
+	width: 110vw;
+	height: 737.27px;
+	left: -5vw;
+	top: -8.31px;
+
+	background: #1A8B79;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+	-webkit-transform: skewY(-12deg);
+    transform: skewY(-12deg);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;;
+}
+
+.form-container {
+	margin: 15px auto;
+	width: 100%;
+	max-width: 834px;
+}
+
+.form-container .entry-header {
+	margin: 120px 15px 0;
+}
+
+.form-container .entry-header .nav-logo-form {
+	height: auto;
+	width: 150px;
+}
+
+.form-container .entry-header h1,
+.form-container .entry-header p {
+	color: #FFFFFF !important;
+	margin-top: 36px;
+	padding-bottom: 0;
+}
+
+.form-container .entry-header p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.form-container .entry-header h1 {
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.form-container .entry-header .signature {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.form-container .entry-header .signature p:last-child {
+	font-weight: 600;
+}
+
+.form-container .entry-content {
+	background: #FFFFFF;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	margin: 0 15px;
+}
+
+.form-footer {
+	background: #126457;
+	padding: 250px 0 50px;
+	margin-top: -275px;
+	box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.form-footer a {
+	color: #FFFFFF !important;
+	opacity: 0.75;
+	text-decoration: none;
+}
+
+.form-footer a:hover {
+	opacity: 1;
+}
+
+.form-footer ul {
+	margin-top: 15px;
+	font-size: 24px;
+}
+
+.gform_heading {
+	display: none;
+}
+
+.gform_wrapper {
+    margin: 0;
+}
+
+.gform_wrapper form {
+    margin-top: -16px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+.gsection_description {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.gform_wrapper .gf_progressbar_wrapper {
+	background: #f3f3f3;
+    padding: 25px 50px;
+    border-bottom: 1px solid #CCC;
+}
+
+.gform_wrapper .gf_progressbar_percentage {
+    background-color: #0a6457;
+    background-image: none;
+}
+
+.gform_page .gform_page_fields {
+    padding: 0 50px 25px;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_button,
+.gform_wrapper .gform_page_footer .button.gform_next_button,
+.gform_wrapper .gform_page_footer .button.gform_previous_button {
+	background: #0fbaa1;
+	border-color: #0b8b79;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+}
+
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_left select,
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_right select,
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield input[type=radio],
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
+	margin-left: 3px;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_button:hover,
+.gform_wrapper .gform_page_footer .button.gform_next_button:hover,
+.gform_wrapper .gform_page_footer .button.gform_previous_button:hover
+.gform_wrapper .gform_page_footer .button.gform_button:focus,
+.gform_wrapper .gform_page_footer .button.gform_next_button:focus,
+.gform_wrapper .gform_page_footer .button.gform_previous_button:focus,
+.gform_wrapper .gform_page_footer .button.gform_button:active,
+.gform_wrapper .gform_page_footer .button.gform_next_button:active,
+.gform_wrapper .gform_page_footer .button.gform_previous_button:active {
+	background: #0b8b79 !important;
+	outline: none !important;
+}
+
+.gform_page .gform_page_footer {
+    padding: 15px 50px 20px;
+    margin: 0;
+    background: #f3f3f3;
+    border-top: 1px solid #CCC;
+}
+
+.gform_wrapper .gfield_checkbox li, .gform_wrapper .gfield_radio li {
+	margin-bottom: 2px;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+	margin-top: 0 !important;
+	display: inline-block;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_radio li label {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_radio li input[type=text] {
+	display: inline-block;
+    width: 85% !important;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+	font-size: 12px;
+}
+
+.gform_confirmation_wrapper {
+    height: 605px;
+    display: table;
+    width: 100%;
+}
+
+.gform_confirmation_message {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    width: 100%;
+}
